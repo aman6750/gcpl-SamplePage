@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(248, 246, 246);
+  }
+#top{
+    border: 1 solid red;
+    width: 100%;
+    height: 100px;
+    margin: 2px;
+
+}
+
+.red-head {
+    color:red;
+}
+.firstdiv{
+    border: 1px solid black;
+    height: 120px;
+}
+.seconddiv{
+    border: 1px solid black;
+    height: 320px;
+    display: flex;
+}
+
+#left{
+    border: 1px solid black;
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#right{
+    border: 1px solid black;
+    height: 100%;
+    width: 65%;    
+    box-sizing: border-box;
+}
+
+.righttop{
+    border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.topleft > h1{
+font-size: 70px;
+font-stretch: narrower;
+}
+.topleft{
+    width: 40%;
+}
+
+.topright{
+    padding: 10px;
+    border: 1px solid black;
+    width: 60%;    
+}
+
+.topright>h3{
+    font-size: 30px;
+}
+.rightbottom{
+    padding: 20px;
+}
+
+.rightbottom li{
+    padding-left: 13px;
+    padding-bottom: 8px;
+    font-size: large;
+    font-weight: 520;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thirddiv{
+    border: 1px solid black;
+    height: 530px;
+    width: 100%;
+}
+
+.firstthird{
+    border: 1px solid black;
+    height: 80px;
+    display: flex;
+
+}
+
+.leftfirstthird{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.rightfirstthird{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.leftfirstthird h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 70px;
+       
+}
+
+.rightfirstthird h2{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+
+.secondthird{
+    height: 420px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.secondthird>div{
+    border: 1px solid black;
+
+}
+
+.onetop{
+    border: 1px solid black;
+    width: 92%;
+    height: 15%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.twotop{
+    border: 1px solid black;
+    width: 92%;
+    height: 15%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.threetop{
+    border: 1px solid black;
+    width: 92%;
+    height: 15%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.onebottom{
+    border: 1px solid black;
+    width: 81%;
+    height: 80%;
+    margin: auto;
+
+}
+
+.twobottom{
+    border: 1px solid black;
+    width: 81%;
+    height: 80%;
+    margin: auto;
+}
+
+.threebottom{
+    border: 1px solid black;
+    width: 81%;
+    height: 50%;
+    margin: auto;
+}
+
+.onebottom{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+
+
+.twobottom ul{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.threebottom ul{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.threelowerbottom{
+    border: 1px solid black;
+    height: 30%;
+}
+
+.fourthdiv{
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+}
+
+.fourthdiv>div{
+    border: 1px solid black;
+}
+
+
+.fifthdiv{
+    border: 1px solid black;
+    height: 680px;
+    width: 100%;
+}
+
+.fifthtop{
+
+    border: 1px solid black;
+    height:30%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+
+}
+
+.fifthtop div{
+    border: 1px solid black;
+}
+
+.fifthtopsecond>p{
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: medium;
+}
+
+.fifthtopthird>p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: medium;
+}
+
+.heading{
+    padding: 40px 0px 15px 155px;
+}
+
+
+
+.fifthbottom{
+    border: 1px solid black;
+    width: 80%;
+    height: 43%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fifthbottomone{
+    border: 1px solid black;
+    width: 65%;
+    height: 100%;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.fifthbottomone>div{
+border: 1px solid black;
+}
+
+.fifthbottomtwo{
+    border: 1px solid black;
+    width: 35%;
+    height: 100%;
+}
