@@ -160,12 +160,12 @@
 }
 
 .secondthird>div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
 .onetop{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -173,7 +173,7 @@
 }
 
 .twotop{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -181,7 +181,7 @@
 }
 
 .threetop{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -237,12 +237,15 @@
 
 .threelowerbottom{
     margin-top: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 30%;
+    width: 70%;
+    margin-left: 60px;
+    text-align: left;
 }
 
 .fourthdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 150px;
     width: 100%;
     display: grid;
@@ -250,19 +253,29 @@
 }
 
 .fourthdiv>div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 .fifthdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 200px;
     width: 100%;
 }
 
+#fourthdivthree_one{
+    /* border: 1px solid black; */
+    height: 60px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+}
+#fourthdivthree_one>div{
+    margin: 20px;
+}
+
 .fifthtop{
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height:30%;
     width: 100%;
     display: grid;
@@ -271,7 +284,7 @@
 }
 
 .fifthtop div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .fifthtopsecond>p{
@@ -313,17 +326,17 @@
 }
 
 .fifthbottomone>div{
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .fifthbottomtwo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 35%;
     height: 100%;
 }
 
 .button{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 18%;
     display: flex;
     justify-content: center;
@@ -422,18 +435,19 @@ li{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: red;
     background-color: #FFFFFF;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    box-shadow: 2;
   }
   
   #button:hover,
   #button:focus {
     background-color: gainsboro;
-    border-color: red;
+    /* border-color: red; */
     outline: none;
   }
   
