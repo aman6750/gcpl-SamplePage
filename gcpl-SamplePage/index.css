@@ -35,12 +35,41 @@
 }
 
 .firstdiv{
-    /* border: 1px solid black; */
-    height: 120px;
+    border: 1px solid black;
+    /* height: 100px; */
+
+}
+.wavetop{
+    display: block;
+    border: 1px solid yellow;
+    /* background: yellow; */
+    
+        
+      
+}
+.wavetop svg{
+    display: block;
+    transform: rotate(180deg);
 }
 
+.wavebottom {
+    display: block;
+    border: 1px solid yellow;
+    background: yellow;
+
+}
+
+ul>li{
+    font-size: 1.2em;
+}
+
+.wavebottom svg{
+    display: block;
+}
+
+
 .seconddiv{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 320px;
     display: flex;
 }
@@ -48,7 +77,7 @@
     min-width: 310px;
 }
 #left{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 35%;
     height: 100%;
     box-sizing: border-box;
@@ -64,14 +93,14 @@
 }
 
 #right{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 100%;
     width: 65%;    
     box-sizing: border-box;
 }
 
 .righttop{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 100%;
     height: 30%;
     display: flex;
@@ -88,7 +117,7 @@
 
 .topright{
     padding: 10px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     min-width: 400px;  
 }
 
@@ -108,13 +137,13 @@
 }
 
 .thirddiv{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height: 530px;
     width: 100%;
 }
 
 .firstthird{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 80px;
     display: flex;
 
@@ -124,7 +153,7 @@
     width: 50%;
     height: 100%;
     min-width: 400px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     justify-content: center;
     align-items: center;
 }
@@ -133,7 +162,7 @@
     width: 50%;
     height: 100%;
     min-width: 500px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .leftfirstthird h2{
@@ -153,19 +182,19 @@
 .secondthird{
     height: 420px;
     width: 92%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .secondthird>div{
-    /* border: 1px solid black; */
+    border: 1px solid black;
 
 }
 
 .onetop{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -173,7 +202,7 @@
 }
 
 .twotop{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -181,7 +210,7 @@
 }
 
 .threetop{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -237,7 +266,7 @@
 
 .threelowerbottom{
     margin-top: 20px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 30%;
     width: 70%;
     margin-left: 60px;
@@ -245,7 +274,7 @@
 }
 
 .fourthdiv{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 150px;
     width: 100%;
     display: grid;
@@ -253,18 +282,19 @@
 }
 
 .fourthdiv>div{
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 
 .fifthdiv{
-    /* border: 1px solid black; */
-    height: 200px;
+    border: 1px solid black;
+    height: 100px;
     width: 100%;
+    margin: auto;
 }
 
 #fourthdivthree_one{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 60px;
     display:grid ;
     grid-template-columns: 1fr 1fr;
@@ -275,7 +305,7 @@
 
 .fifthtop{
 
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height:30%;
     width: 100%;
     display: grid;
@@ -284,24 +314,31 @@
 }
 
 .fifthtop div{
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
+
+.
 
 .fifthtopsecond>p{
 
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: medium;
 }
 
 .fifthtopthird>p{
     text-align: center;
-    padding-top: 20px;
+    /* padding-top: 10px; */
     font-size: medium;
 }
 
+.forheading{
+    border: 1px solid black;
+
+}
+
 .heading{
-    padding: 40px 0px 15px 155px;
+   padding-left: 60px;
 }
 
 
@@ -326,17 +363,17 @@
 }
 
 .fifthbottomone>div{
-/* border: 1px solid black; */
+border: 1px solid black;
 }
 
 .fifthbottomtwo{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 35%;
     height: 100%;
 }
 
 .button{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 18%;
     display: flex;
     justify-content: center;
@@ -389,16 +426,15 @@ li{
 }
 
 .sixthDiv{
-
-   
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 .fifthbottomoX{
     width: 70%;
     height: 300px;
-    padding: 40px;
+    padding: 10px 10px 40px 60px;
     display: flex;
 }  
 
@@ -414,15 +450,13 @@ li{
     width: 100%;
     height: 100%;
 }
-.drxBomb{
+
+.fifthbottomtwo{
+    width: 30%;
+    padding: 15px;
     margin-top: 30px;
-  
     justify-content: center;
     align-items: center;
-}
-.fifthbottomtwo{
-    width: 100%;
-    padding: 15px;
 }
 #button {
     
@@ -437,7 +471,7 @@ li{
     text-transform: uppercase;
     color: red;
     background-color: #FFFFFF;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -447,7 +481,7 @@ li{
   #button:hover,
   #button:focus {
     background-color: gainsboro;
-    /* border-color: red; */
+    border-color: red;
     outline: none;
   }
   
