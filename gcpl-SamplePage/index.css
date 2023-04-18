@@ -35,13 +35,13 @@
 }
 
 .firstdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* height: 100px; */
 
 }
 .wavetop{
     display: block;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     /* background: yellow; */
     
         
@@ -54,7 +54,7 @@
 
 .wavebottom {
     display: block;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     background: yellow;
 
 }
@@ -69,15 +69,23 @@ ul>li{
 
 
 .seconddiv{
-    border: 1px solid black;
-    height: 320px;
+    /* border: 1px solid black; */
+    /* height: 320px; */
     display: flex;
 }
+
+
+
+ 
+
+
+
+
 .topleft{
     min-width: 310px;
 }
 #left{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 35%;
     height: 100%;
     box-sizing: border-box;
@@ -93,14 +101,14 @@ ul>li{
 }
 
 #right{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
     width: 65%;    
     box-sizing: border-box;
 }
 
 .righttop{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 30%;
     display: flex;
@@ -117,12 +125,12 @@ ul>li{
 
 .topright{
     padding: 10px;
-    border: 1px solid black;
-    min-width: 400px;  
+    /* border: 1px solid black;             */
+    /* min-width: 400px;   */
 }
 
 .topright>h3{
-    font-size: 30px;
+    font-size: 2.2em;
 }
 /* .rightbottom{
     padding: 20px;
@@ -137,32 +145,33 @@ ul>li{
 }
 
 .thirddiv{
-    border: 1px solid red;
-    height: 530px;
+    /* border: 1px solid red; */
+    /* height: 530px; */
     width: 100%;
 }
 
+
 .firstthird{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 80px;
     display: flex;
 
 }
 
 .leftfirstthird{
-    width: 50%;
+    width: 30%;
     height: 100%;
     min-width: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
 }
 
 .rightfirstthird{
-    width: 50%;
+    width: 70%;
     height: 100%;
     min-width: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .leftfirstthird h2{
@@ -182,19 +191,19 @@ ul>li{
 .secondthird{
     height: 420px;
     width: 92%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .secondthird>div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
 .onetop{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -202,7 +211,7 @@ ul>li{
 }
 
 .twotop{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -210,7 +219,7 @@ ul>li{
 }
 
 .threetop{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 92%;
     height: 15%;
     margin: 10px auto;
@@ -221,24 +230,24 @@ ul>li{
     width: 81%;
     margin: auto;
     padding-bottom: 20px;
-    border-left: 2px solid yellow;
-    border-bottom: 2px solid yellow;
+    /* border-left: 2px solid yellow; */
+    /* border-bottom: 2px solid yellow; */
     border-bottom-left-radius: 10px;
 }
 
 .twobottom{
     width: 81%;
     padding-bottom: 20px;
-    border-left: 2px solid yellow;
-    border-bottom: 2px solid yellow;
+    /* border-left: 2px solid yellow; */
+    /* border-bottom: 2px solid yellow; */
     border-bottom-left-radius: 10px;
     margin: auto;
 }
 
 .threebottom{
     padding-bottom: 20px;
-    border-left: 2px solid yellow;
-    border-bottom: 2px solid yellow;
+    /* border-left: 2px solid yellow; */
+    /* border-bottom: 2px solid yellow; */
     border-bottom-left-radius: 10px;
     width: 81%;
     margin: auto;
@@ -266,7 +275,7 @@ ul>li{
 
 .threelowerbottom{
     margin-top: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 30%;
     width: 70%;
     margin-left: 60px;
@@ -274,7 +283,7 @@ ul>li{
 }
 
 .fourthdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 150px;
     width: 100%;
     display: grid;
@@ -282,19 +291,19 @@ ul>li{
 }
 
 .fourthdiv>div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 .fifthdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100px;
     width: 100%;
     margin: auto;
 }
 
 #fourthdivthree_one{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 60px;
     display:grid ;
     grid-template-columns: 1fr 1fr;
@@ -305,7 +314,7 @@ ul>li{
 
 .fifthtop{
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height:30%;
     width: 100%;
     display: grid;
@@ -314,7 +323,7 @@ ul>li{
 }
 
 .fifthtop div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .
@@ -333,9 +342,61 @@ ul>li{
 }
 
 .forheading{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
+ @media screen and (max-width: 450px) {
+    
+    .seconddiv{
+        flex-direction: column;
+    }
+#left{
+    margin-left: 30%  ;
+}
+#right{
+    margin-left: 13%  ;
+}
+
+
+.fourthdiv{
+    margin-left: 10%;
+}
+
+.fifthdiv{
+    margin-left: 10%;
+}
+.fifthtopfirst img{
+padding-right: 30px;
+padding-top: 40px;
+width: 100%;
+}
+.fifthtopsecond{
+
+    margin-left: 30px;
+}
+
+.fifthtopthird{
+    margin-left: 30px;
+}
+
+.fifthtop{
+    margin-top: 20px;
+}
+
+.forheading{
+    margin-top: 18%;
+}
+
+.sixthDiv{
+    margin-left: 10%;
+    width: 100%;
+}
+.fifthbottomtwo{
+    margin-left: 10px;
+}
+
+}
+
 
 .heading{
    padding-left: 60px;
@@ -363,17 +424,17 @@ ul>li{
 }
 
 .fifthbottomone>div{
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .fifthbottomtwo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 35%;
     height: 100%;
 }
 
 .button{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 18%;
     display: flex;
     justify-content: center;
@@ -429,7 +490,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .fifthbottomoX{
     width: 70%;
@@ -471,7 +532,7 @@ li{
     text-transform: uppercase;
     color: red;
     background-color: #FFFFFF;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -481,7 +542,11 @@ li{
   #button:hover,
   #button:focus {
     background-color: gainsboro;
-    border-color: red;
+    /* border-color: red; */
     outline: none;
   }
   
+
+
+
+
